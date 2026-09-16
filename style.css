@@ -38,8 +38,24 @@
  .yellow {
   background-color: rgb(254, 248, 204); 
  }
+ h4 {
+    color: rgb(187, 126, 124);
+     background-color: rgb(225, 214, 173);
+     background-position-y: center;
+      width: 410px;
+     height: 90px;
+    font-family: "Open Sans";
+    font-size: 40px;
+    text-align: center;
+    line-height: normal;
+    overflow: hidden;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(225, 214, 173);
+    border-radius: 4px;
+ }
  .bed {
-   width: 985px;
+   width: 100%;
    height: 619px;
    opacity: 0.55;
  }
@@ -47,9 +63,9 @@
     font-size: 36px;
     color: rgb(63, 60, 49);
     text-align: center;
-
-
  }
+
+
  p {
     font-family: "Montserrat";
     font-size: 48px;
@@ -87,11 +103,11 @@
  .horrible-text {
     ...
  }
- .horrible-text:hover {
+ h4:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color: rgb(121, 113, 82);
  }
- .horrible-text:active {
+ h4:active {
     cursor: pointer;
     background-color: pink;
  }
