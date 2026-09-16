@@ -1,0 +1,97 @@
+.horrible-text { color: rgb(184, 66, 121);
+    background-color: lavenderblush;
+    font-size: 6px;
+    text-align: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    overflow: hidden;
+    padding: 8px 16px;
+    border: 1px;
+    border-style: solid;
+    border-color: lightyellow;
+    border-radius: 4px;
+    margin: 32px;
+    font-family: "Jacquarda Bastarda 9";
+ }
+ h2 {
+    font-family: "Jacquarda Bastarda 9";
+    font-size: 36px;
+    color: rgb(222, 157, 155);
+    background-color: rgb(121, 113, 82);
+     width: 100%;
+    height: 10.25rem;
+    font-weight: 400
+    
+ }
+ a {
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 200;
+    color: rgb(222, 157, 155);
+    text-decoration: none;
+ }
+ .header {
+    
+    background-color: rgb(121, 113, 82);
+   
+ }
+ .yellow {
+  background-color: rgb(254, 248, 204); 
+ }
+ .bed {
+   width: 985px;
+   height: 619px;
+   opacity: 0.55;
+ }
+ .Keeping {
+    font-size: 36px;
+    color: rgb(63, 60, 49);
+    text-align: center;
+
+
+ }
+ p {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 200;
+    color: rgb(000, 000, 000);
+    text-decoration: none;
+    background-color: rgb(254, 248, 204);
+ }
+ i {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 200;
+    color: rgb(000, 000, 000);
+    text-decoration: none;
+ }
+ p2 {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 200;
+    color: rgb(000, 000, 000);
+    text-decoration: none;
+ }
+ h6 {
+    font-family: "Jacquarda Bastarda 9";
+    font-size: 36px;
+    color: rgb(222, 157, 155);
+    
+ }
+ a {
+    font-family: "Open Sans";
+    font-size: 36px;
+    color: rgb(222, 157, 155);
+    text-decoration: none;
+ }
+ .horrible-text {
+    ...
+ }
+ .horrible-text:hover {
+    cursor: pointer;
+    background-color: purple;
+ }
+ .horrible-text:active {
+    cursor: pointer;
+    background-color: pink;
+ }
