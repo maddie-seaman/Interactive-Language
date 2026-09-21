@@ -100,9 +100,6 @@
     color: rgb(222, 157, 155);
     text-decoration: none;
  }
- .horrible-text {
-    ...
- }
  h4:hover {
     cursor: pointer;
     background-color: rgb(121, 113, 82);
