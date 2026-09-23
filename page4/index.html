@@ -4,10 +4,18 @@
         <title>
             Maddie Seaman's Portfolio Site
         </title>
+     <link rel="stylesheet" href="../style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">   
     </head>
     <body> 
         <!-- notice that the text stacks vertically-->
-          <h1>  
+    <div class="header"> 
+        <h1>  
         <a href="/index.html"> Maddie Seaman </a>
         </h1> 
         <h1>  
@@ -17,26 +25,66 @@
         <a href="/page3"> Visual Media </a>
         </h1>
         <h1>  
-       <a href="/page4"> Branding </a>
+        <a href="/page4"> Branding </a>
         </h1>  
         <h1>  
-       <a href="/page5"> About </a>
-        <h1>  
+        <a href="/page5"> About </a>
+    </div>
+    <div class="yellow">
+        <h1 class="pagestext"> 
        Branding and Brand Identity:
-        </h1> 
-        <br/>
-        <div>
-         <h3> Ainsley Dewese Photography </h3>
-        <p> <i> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p>
-        <img src="../assets/Ainsley-01.png" alt="My Image"/>   
-        <h3> Reroute App </h3>
-        <p> <i> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p>
-        <img src="../assets/reroute.png" alt="My Image"/>  
-         <h3> Peace at Home Website Redesign </h3>
-         <p> <i> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p> 
-          <img src="../assets/peace at home 1.png" alt="My Image"/> <img src="../assets/peace at home 2.png" alt="My Image"/> 
-        <br/>
-        
-        </div> 
+       </h1>
+         <h3 class="pagestext"> Ainsley Dewese Photography </h3>
+        <p> <i class="pagestext"> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p>
+        <img src="../assets/Ainsley-01.png" alt="My Image" class="me"/>   
+        <h3 class="pagestext"> Reroute App </h3>
+        <p> <i class="pagestext"> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p>
+        <img src="../assets/reroute.png" alt="My Image" class="me"/>  
+         <h3 class="pagestext"> Peace at Home Website Redesign </h3>
+         <p> <i class="pagestext"> lorem ipsum dolor sit amet consectetur adipiscing elit duis ut veniam consequat sint cupiditate qui facere deserunt officia aliquip sed velit quidem eiusmod et deleniti culpa fuga est autem nostrud cumque libe </i> </p> 
+          <img src="../assets/peace at home 1.png" alt="My Image" class="website"/> <img src="../assets/peace at home 2.png" alt="My Image" class="website"/> 
+    </div> 
+   <div class="header">
+         <h6>
+            Maddie Seaman
+         </h6>
+           <h6>  
+        <a href="/index.html" class="footer"> Home </a>
+        </h6> 
+        <h6>  
+        <a href="/page2" class="footer"> Projects </a>
+        </h6> 
+        <h6>  
+        <a href="/page3" class="footer"> Visual Media </a>
+        </h6>
+        <h6>  
+       <a href="/page4" class="footer"> Branding </a>
+        </h6>  
+        <h6>  
+       <a href="/page5" class="footer"> About </a>
+        </h6> 
+        <a href="https://www.instagram.com/maddiesignz?stkn=aWx5YWs2aGYzYjFj&utm_source=qr" target="_blank" rel="noopener noreffer"> 
+            <svg width="77" height="77" viewBox="0 0 77 77" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="77" height="77" fill="url(#pattern0_90_35)"/>
+                <defs>
+                <pattern id="pattern0_90_35" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_90_35" transform="scale(0.0111111)"/>
+                </pattern>
+                <image id="image0_90_35" width="90" height="90" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                </defs>
+            </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/maddie-seaman-66b8aa297/" target="_blank" rel="noopenernorefferer"></p>
+        <svg width="77" height="77" viewBox="0 0 77 77" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="77" height="77" fill="url(#pattern0_90_34)"/>
+        <defs>
+        <pattern id="pattern0_90_34" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_90_34" transform="scale(0.0111111)"/>
+        </pattern>
+        <image id="image0_90_34" width="90" height="90" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgUlEQVR4nO3czYtVdRgH8GNpE4JQvqVpbQIh3BuYK8FFtM5FES1aiODLf+DdVUIIF3X097zMdaQGmmoXQYG4q4QBFQplnOe5KQotBNFR8aU6cUbRkea8zIxzfnPP/X7hWZ7nnufD4XfvOffwSxIEQRAEQRAEQRAEQRAk6XY6L7uE/a50xoRuu3LaxDKh2yb8myvvG2+3B2pFHifa6ErnYyN4/ejnstnru5L7ENmnY9dxZT9aLuIP7DFLaO/CQyudiT6oRr6qlX+tAZonYw/q8WuyDujYQ6aLoQCtgE6bVIBWQKdNqkUJbULXXag1wfxul/ntrob3TOmkCf0dG6xJ0GPG/NpMvSaGaHuv/lxcVNAmdKPb6awr6mdCH8VG63loF/q8rF+apktM+EJsuJ6GNuYdFXsejQ3X09Cu4Z1KPYU+iw3X09DG/GE1aP42NlxPQ7vSD2X9rg4Pr3KlW7Hhehx6Cntn0RehC4/ERmsGtND97M+C063W0ul9Jk4OrjXhb2KDNQf6cZnSNVf+ypUOZ0uKCd+NjdVIaG9YAVoBndZY90y4a0J/uNJfpvxP46FN6KApf5FfdHzG45R+KjrOhY88c4zQTRc6lN0kjYWwbPo5p63WCxbCmy7ysSv93EjodHT0xaJ+4yfCWzND8+6i4/4MYf1TZB65GMLqqjOYhm2m7IDWWUEfmMsc46prHi0tgN5dDk3fz2cWI9pkyncAXZBrISy/wrwymWdMqA3oGnJpaOgNV34I6Boyl9fc+hb66vDwKhN535k/yf787XY6r1SeaQ7Pw5N+gx4LYZkLfZndpDzbg26Z0qeVZhL5ANAleYw842eb0L+XhsLWsh7GvAXQBbly4tgGV35Qcg7fJSW5LPI6oAvizLuqvLyTlOSCyApAF+R/zzty6vLg4Kul6zyg8+NKX1c5h+y3clKS2T7hS/oJ2oR/rHIO2a12ea/ZvQeY9BO0C5+qdEUTbS7rBeiCABrQ8w+gGdAO6PwAOm84QKeAVkDnBtB5wwE6BbQCOjeAzhsO0CmgtY+hm1oJoBnQ3qACtAI6bVIBWpsD3ZP7a/jzLKGbNUBjg0GraYPBfbEH9djQzHsWHDrbADXbCLVvkYXP/j46+tKCQ09hE23sR2wTPpu9WFkL8hPsdnsg23U2W68a/gU5aUq/ZMtFbVcygiAIgiAIgiAIgiBIsrjzHysimX8DsNpzAAAAAElFTkSuQmCC"/>
+        </defs>
+        </svg>
+        </a>
+    </div>      
     </body>
 </html>
