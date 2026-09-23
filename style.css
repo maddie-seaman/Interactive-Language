@@ -63,17 +63,17 @@
     color: rgb(187, 126, 124);
      background-color: rgb(225, 214, 173);
      background-position-y: center;
-    width: 410px;
+     width: 410px;
      height: 105px;
-    font-family: "Open Sans";
-    font-size: 40px;
-    text-align: center;
-    line-height: normal;
-    overflow: hidden;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(225, 214, 173);
-    border-radius: 4px;
+     font-family: "Open Sans";
+     font-size: 40px;
+     text-align: center;
+     line-height: normal;
+     overflow: hidden;
+     border: 1px;
+     border-style: solid;
+     border-color: rgb(225, 214, 173);
+     border-radius: 4px;
  }
  .bed {
    height: 619px;
