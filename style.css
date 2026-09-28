@@ -53,8 +53,30 @@
     
     background-color: rgb(121, 113, 82);
     width: 100vw;
-   
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+   gap: 0.5rem;
  }
+ .container {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+ .child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+ }
+ @media screen and (min-width:320px) {
+   .container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+   } 
+ } 
+    
  .yellow {
   background-color: rgb(254, 248, 204); 
   width: 100vw;
@@ -80,8 +102,13 @@
    opacity: 0.55;
  }
  .me {
-    height: 619px;
-   
+    height: 619px; 
+ }
+ .hero-background {
+    height: 500px;
+    background: url('./assets/bed\ for\ website.png');
+    background-color: rgba(255, 255, 255, 0.45);
+    background-blend-mode: lighten;
  }
  .Keeping {
     font-size: 36px;
