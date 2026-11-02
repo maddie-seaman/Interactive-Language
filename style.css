@@ -22,7 +22,7 @@
    
  }
  a {
-    font-family: "Open Sans";
+    font-family: "Ovo";
     font-size: 36px;
     font-weight: 200;
     color: rgb(222, 157, 155);
@@ -76,6 +76,7 @@
    justify-content: space-between;
    align-content: center;
    background-color: rgb(121, 113, 82);
+   width: 100vw;
  }
  .heromessage {
    display: flex;
@@ -83,6 +84,10 @@
    flex-direction: column;
    align-content: flex-end;
 
+ }
+ .sharp {
+   font-family: MedievalSharp;
+   font-size: 24px;
  }
  .child {
     display: flex;
@@ -99,23 +104,24 @@
  } 
     
  .yellow {
-  background-color: rgb(254, 248, 204); 
-  width: 100vw;
+  background-color: rgb(223, 219, 200, 1)
+
+
+  
  }
  .callbutton {
     color: rgb(187, 126, 124);
-     background-color: rgb(225, 214, 173);
+     background-color: rgb(203, 195, 160);
      background-position-y: center;
-     width: 410px;
-     height: 105px;
-     font-family: "Open Sans";
+     width: 239px;
+     height: 61px;
      font-size: 40px;
      text-align: center;
      line-height: normal;
      overflow: hidden;
      border: 1px;
      border-style: solid;
-     border-color: rgb(225, 214, 173);
+     border-color: rgb(203, 195, 160);
      border-radius: 4px;
  }
  .bed {
@@ -127,15 +133,21 @@
  }
  .hero-background {
     height: 500px;
-    background: url('./assets/bed\ for\ website\ 3.png');
     background-color: rgba(255, 255, 255, 0.45);
     background-blend-mode: lighten;
     background-size: 50%;
  }
  .Keeping {
     font-size: 36px;
-    color: rgb(63, 60, 49);
+   color: #3F3C31;
     text-align: center;
+    font-family: "Montaga";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+   
+   
  }
  .tabs {
    display: flex;
@@ -208,4 +220,17 @@
 a:hover {
    cursor: pointer;
    color: rgb(100, 51, 59) ;  
+}
+.odyssey {
+width: 405px;
+height: 239px; 
+background: rgba(121, 113, 82, 0.40);
+}
+.sword {
+  width: 63px;
+ height: 151px; 
+ flex-direction: column;
+ align-content:center;
+ align-items: center;
+
 }
