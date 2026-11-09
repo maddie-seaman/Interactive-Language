@@ -49,14 +49,28 @@
  }
  .header {
     
-    background-color: rgb(121, 113, 82);
-    width: 100vw;
-   display: flex;
-   flex-direction: row;
-   justify-content: start;
-   align-items: center;
-   gap: 2.5rem;
-   align-content: space-between;
+    
+   display: none;
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+ }
+ 
+ .hamburger {
+   color: rgb(222, 157, 155);
+   font-size: 20px;
+ }
+ .closex {
+   font-size: 40px;
+   color: rgb(121, 113, 82);
+   position: absolute;
+   top: 20px;
+   right: 20px;
  }
  .container {
     display:flex;
@@ -95,13 +109,6 @@
     gap: 1.5rem; 
     font-size: 20px;
  }
- @media screen and (min-width:320px) {
-   .container {
-    display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
-   } 
- } 
     
  .yellow {
   background-color: rgb(223, 219, 200, 1)
@@ -230,7 +237,40 @@ background: rgba(121, 113, 82, 0.40);
   width: 63px;
  height: 151px; 
  flex-direction: column;
- align-content:center;
+ justify-content: center;
  align-items: center;
 
+
 }
+@media screen and (min-width:768px) {
+   .hamburger {
+      display: none;
+   }
+   .closex {
+      display: none;
+   }
+   .header {
+      display: flex;
+      background: none;1
+      position: relative;
+      width: auto;
+      height: auto;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      background-color: rgb(121, 113, 82);
+    width: 100vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+   gap: 2.5rem;
+   align-content: space-between;
+   }
+   .container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+   } 
+ }

@@ -26,11 +26,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(
+                function() {
+                    $(".hamburger").click(() => $(".header").slideToggle());
+                    $(".closex").click(() => $(".header").fadeOut());
+                }
+            )
+        </script>  
     </head>
     <body> 
         <!-- notice that the text stacks vertically-->
    
         <div class="header"> 
+            <div class="closex">&#x2715;</div>
             <!-- <div class="rows"> -->
             <h2>
             Maddie Seaman
@@ -52,8 +62,9 @@
         <a href="/page5"> About </a>
             </h1> 
         </div>
+          <div class="hamburger">&#9776;</div>
         <div class="yellow">
-            <img class="sword"src="./assets/sword cropped.png" alt="My Image"/>
+            <img class="sword" src="./assets/sword cropped.png" alt="My Image"/>
     
             <div class="Keeping">
                 <h1>  
