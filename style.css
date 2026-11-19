@@ -136,7 +136,7 @@
    opacity: 0.55;
  }
  .me {
-    height: 619px; 
+     height: 500px;
  }
  .hero-background {
     height: 500px;
@@ -153,15 +153,41 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;   
-   
-   .Names {
-     font-family: "Jacques Francois";
-     color: rgba(121, 113, 82, 1);
-     font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-   }
+ }
+.Names {
+   font-family: "Jacques Francois";
+   color: rgba(121, 113, 82, 1);
+   font-size: 96px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-align: center;
+
+}
+.layout{ 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly
+
+}
+
+ .tabbackground {
+  width: 100vw;
+  aspect-ratio: 1440 / 789;
+  background: url('./assets/Group\ 1.5.png');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 150px;
+ }
+ .titles{
+   text-align: center;
+   font-family: "Open Sans";
+   color: rgba(30, 30, 30, 1); 
+   margin: 0px;
  }
  .tabs {
    display: flex;
@@ -176,6 +202,8 @@
  .pagestext {
    font-family: "Open Sans";
    color: rgba(30, 30, 30, 1); 
+   font-size: 32px;
+   max-width: 40%;
 }
  .pic2 {
    width: 100vw; 
